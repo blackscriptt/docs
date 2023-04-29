@@ -1,29 +1,175 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./images/logo.webp" sizes="32x32">
-    <title>Svart</title>
 
-    <!-- bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- font awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    
-    <div class="title">
-        <h1><span class="auto"></span> Svart Library</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./images/logo.webp" sizes="32x32">
+  <title>Svart</title>
+
+  <!-- bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- font awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- hero - [START] -->
+  <section class="hero">
+    <h1>
+      <span class="auto"></span> Svart Library
+    </h1>
+  </section>
+  <!-- hero - [END^] -->
+
+  <!-- loading - [START] -->
+  <section class="loading">
+    <!-- container - [START] -->
+    <div class="container">
+      <h2 class="title">Svart Yükleniyor Ekranı</h2>
+
+      <div class="row g-0 gy-5 gx-lg-5">
+        <div class="col-lg-5">
+          <video src="./images/loading.mov" controls></video>
+        </div>
+
+        <div class="col-lg-7">
+
+          <!-- howToAddCode - [START] -->
+          <div class="howToAddCode">
+            <h3>Nasıl kullanırım?</h3>
+
+            <div class="row g-0 gy-4">
+
+              <!-- link CSS - [START] -->
+              <div class="col-12">
+                <div class="row gy-0">
+                  <div class="col-12">
+                    <!-- header - [START] -->
+                    <div class="header">
+                      <span class="toWhere">
+                        HEADER
+                        <span class="badge bg-success">CSS</span>
+                      </span>
+
+                      <button type="button" class="copy"
+                        onclick="linkCopy(`https://blackscriptt.github.io/docs/src/loading/loadingV1/loading.css`)">
+                        <i class="fa-regular fa-copy"></i>
+                      </button>
+                    </div>
+                    <!-- header - [END^] -->
+                  </div>
+
+                  <div class="col-12">
+                    <!-- body - [START] -->
+                    <div class="body">
+                      <span class="link__code">
+                        https://blackscriptt.github.io/docs/src/loading/loadingV1/loading.css
+                      </span>
+                    </div>
+                    <!-- body - [END^] -->
+                  </div>
+                </div>
+              </div>
+              <!-- link CSS - [END^] -->
+
+              <!-- link HTML - [START] -->
+              <div class="col-12">
+                <div class="row gy-0">
+                  <div class="col-12">
+                    <!-- header - [START] -->
+                    <div class="header">
+                      <span class="toWhere">
+                        BODY
+                        <span class="badge bg-success">başlangıç</span>
+                      </span>
+
+                      <button type="button" class="copy"
+                        onclick='linkCopy(`<div id="loading"></div>`)'>
+                        <i class="fa-regular fa-copy"></i>
+                      </button>
+                    </div>
+                    <!-- header - [END^] -->
+                  </div>
+
+                  <div class="col-12">
+                    <!-- body - [START] -->
+                    <div class="body">
+                      <span class="link__code">
+                        <span><</span>div id="loading"><span><</span>/div>
+                      </span>
+                    </div>
+                    <!-- body - [END^] -->
+                  </div>
+                </div>
+              </div>
+              <!-- link HTML - [END^] -->
+
+              <!-- link JS - [START] -->
+              <div class="col-12">
+
+                <div class="row">
+                  <div class="col-12">
+                    <!-- header - [START] -->
+                    <div class="header">
+                      <span class="toWhere">
+                        BODY
+                        <span class="badge bg-success">JS - sonu</span>
+                      </span>
+
+                      <button type="button" class="copy"
+                        onclick="linkCopy(`https://blackscriptt.github.io/docs/src/loading/loadingV1/loading.js`)">
+                        <i class="fa-regular fa-copy"></i>
+                      </button>
+                    </div>
+                    <!-- header - [END^] -->
+                  </div>
+
+                  <div class="col-12">
+                    <!-- body - [START] -->
+                    <div class="body">
+                      <span class="link__code">
+                        https://blackscriptt.github.io/docs/src/loading/loadingV1/loading.js
+                      </span>
+                    </div>
+                    <!-- body - [END^] -->
+                  </div>
+
+                </div>
+              </div>
+              <!-- link JS - [END^] -->
+
+              <p>jQuery kütüphanesini eklemeyi unutmayınız</p>
+            </div>
+          </div>
+          <!-- howToAddCode - [END^] -->
+        </div>
+      </div>
+
     </div>
+    <!-- container - [END^] -->
+  </section>
+  <!-- loading - [END^] -->
 
 
-    <!-- bootstrapt JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <!-- custom JS -->
-    <script type="text/javascript" src="./js/app.js"></script>
-  </body>
+
+
+  <!-- bootstrapt JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- custom JS -->
+  <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
 </html>

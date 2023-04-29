@@ -1,31 +1,87 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+html {
+  scroll-snap-type: y mandatory;
+}
 
 body {
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background: #262626;
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.title h1 {
-    font-weight: 700;
-    font-family: 'Finger Paint', cursive;
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .container .title {
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 55px;
+}
+section .container video {
+  width: 100%;
+  height: 400px;
+}
+section .container .howToAddCode h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+section .container .howToAddCode .header {
+  display: flex;
+  justify-content: space-between;
+}
+section .container .howToAddCode .header .toWhere {
+  font-weight: 500;
+  color: #fff;
+  font-size: 0.8rem;
+}
+section .container .howToAddCode .header .toWhere .badge {
+  font-size: 0.5rem;
+}
+section .container .howToAddCode .header .copy {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+section .container .howToAddCode .header .copy i {
+  font-size: 1.1rem;
+}
+section .container .howToAddCode .body .link__code {
+  display: block;
+  background: #262626;
+  color: #fff;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.7rem;
 }
 
-span.auto {
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: .6px;
-    color: rgb(0, 153, 255);
-    opacity: .6;
+/* hero - [START] */
+.hero {
+  background: #262626;
+  color: #fff;
+}
+.hero h1 {
+  font-weight: 700;
+  font-family: "Finger Paint", cursive;
+}
+.hero h1 span.auto {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  color: rgb(0, 153, 255);
+  opacity: 0.6;
+}
+.hero h1 .typed-cursor {
+  color: rgb(0, 140, 255);
 }
 
-.typed-cursor {
-    color: rgb(0, 140, 255);
-}
+/* hero - [END^] */
+.loading {
+  background-color: #e1b12c;
+}/*# sourceMappingURL=style.css.map */
