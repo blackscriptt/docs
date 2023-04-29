@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
 body {
     height: 100vh;
 
@@ -5,4 +8,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background: #262626;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.title h1 {
+    font-weight: 700;
+    font-family: 'Finger Paint', cursive;
+}
+
+span.auto {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .6px;
+    color: rgb(0, 153, 255);
+    opacity: .6;
+}
+
+.typed-cursor {
+    color: rgb(0, 140, 255);
+}
+
