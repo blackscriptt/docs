@@ -94,4 +94,7 @@ section .container .howToAddCode .body .link__code {
 
 .bgAnimation {
   background-color: #40739e;
+}
+.bgAnimation .title {
+  text-align: end;
 }/*# sourceMappingURL=style.css.map */
