@@ -66,8 +66,14 @@ section .container .howToAddCode .body .link__code {
 .hero {
   background: #262626;
   color: #fff;
+  position: relative;
 }
 .hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
   font-weight: 700;
   font-family: "Finger Paint", cursive;
 }
