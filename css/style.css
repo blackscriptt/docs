@@ -90,4 +90,8 @@ section .container .howToAddCode .body .link__code {
 /* hero - [END^] */
 .loading {
   background-color: #e1b12c;
+}
+
+.bgAnimation {
+  background-color: #40739e;
 }/*# sourceMappingURL=style.css.map */
