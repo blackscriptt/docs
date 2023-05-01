@@ -1,0 +1,13 @@
+/*
+
+                 (  (  (  (   (               )    (( (  (  
+                 )\ )\ )\ )\  )\  )\ )\      (()  (\())\ )\ 
+                 ((_)(_)(_)_()((_)((_)(_)    ()(_)))(_)(_)(_)
+                / __| \ / /   \ _ \_   _|    |   \| __| \ / /
+                \__ \\   /| - |   / | |      | |) | _| \   / 
+                |___/ \_/ |_|_|_|_\ |_|      |___/|___| \_/  
+
+*/
+
+
+#animation__items span:nth-child(1){animation-duration:30s;}#animation__items{position:fixed;}#animation__items span:nth-child(1){animation-delay:15s;}#animation__items span:nth-child(2){animation-duration:20s;}#animation__items span:nth-child(2){animation-delay:10s;}#animation__items{top:0;}#animation__items span:nth-child(3){animation-duration:34s;}#animation__items span:nth-child(3){animation-delay:5s;}#animation__items{left:0;}#animation__items span:nth-child(4){animation-duration:45s;}#animation__items span{position:relative;}#animation__items{width:100vw;}#animation__items span:nth-child(4){animation-delay:7s;}#animation__items{height:100vh;}#animation__items span:nth-child(5){animation-duration:28s;}#animation__items span:nth-child(5){animation-delay:9s;}#animation__items{overflow:hidden;}#animation__items span:nth-child(6){animation-duration:24s;}#animation__items span:nth-child(6){animation-delay:3s;}#animation__items span:nth-child(7){animation-duration:40s;}#animation__items span:nth-child(7){animation-delay:7s;}#animation__items span:nth-child(8){animation-duration:31s;}#animation__items{display:flex;}#animation__items span{bottom:-10%;}#animation__items span:nth-child(8){animation-delay:4s;}#animation__items span:nth-child(9){animation-duration:46s;}#animation__items{justify-content:space-around;}#animation__items span:nth-child(9){animation-delay:21s;}#animation__items span:nth-child(10){animation-duration:23s;}#animation__items span:nth-child(10){animation-delay:6s;}#animation__items{align-items:flex-end;}#animation__items span:nth-child(11){animation-duration:43s;}#animation__items span:nth-child(11){animation-delay:8s;}#animation__items span:nth-child(12){animation-duration:36s;}#animation__items span{animation:bgAnimationItems linear infinite;}#animation__items span:nth-child(12){animation-delay:9s;}#animation__items span:nth-child(13){animation-duration:38s;}#animation__items span:nth-child(13){animation-delay:21s;}#animation__items span:nth-child(14){animation-duration:37s;}#animation__items span:nth-child(14){animation-delay:4s;}#animation__items span:nth-child(15){animation-duration:49s;}#animation__items span:nth-child(15){animation-delay:6s;}@keyframes bgAnimationItems{from{bottom:-10%;}to{bottom:110%;transform:rotate(360deg);}}
