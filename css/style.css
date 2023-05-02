@@ -27,6 +27,7 @@ body {
 /* scroll - [END^] */
 section {
   height: 100vh;
+  padding: 25px 0;
   scroll-snap-align: start;
   display: flex;
   align-items: center;
