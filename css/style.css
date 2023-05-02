@@ -97,10 +97,7 @@ section .container .howToAddCode .body .link__code {
   font-family: "Finger Paint", cursive;
 }
 .hero h1 span.auto {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 0.6px;
   color: rgb(0, 153, 255);
-  opacity: 0.6;
 }
 .hero h1 .typed-cursor {
   color: rgb(0, 140, 255);
