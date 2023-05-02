@@ -7,6 +7,24 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* scroll - [START] */
+/* width */
+::-webkit-scrollbar {
+  height: 4px;
+  width: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(179, 178, 178, 0);
+  border-radius: 50px;
+}
+
+:hover::-webkit-scrollbar-thumb {
+  background: rgba(179, 178, 178, 0.8);
+}
+
+/* scroll - [END^] */
 section {
   height: 100vh;
   width: 100vw;
@@ -14,6 +32,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  overflow-y: auto;
 }
 section .container .title {
   font-weight: 700;
